@@ -1,0 +1,22 @@
+<h2><%= @cat.name %></h2>
+
+<table>
+  <tr>
+    <th>birth_date</th>
+    <td> <%= @cat.birth_date %> </td>
+  </tr>
+  <tr>
+    <th>color</th>
+    <td> <%= @cat.color %> </td>
+  </tr>
+  <tr>
+    <th>sex</th>
+    <td> <%= @cat.sex %> </td>
+  </tr>
+  <tr>
+    <th>description</th>
+    <td> <%= @cat.text %> </td>
+  </tr>
+</table>
+
+<%= link_to "Peruse our friendly felines", cats_url %>
